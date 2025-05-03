@@ -1,60 +1,74 @@
-# pixelmon-economy-launcher
-A custom Minecraft launcher for Pixelmon Reforged economy server. 
 # Pixelmon Economy Launcher
 
-**A custom Minecraft launcher built for a Pixelmon-based economy server.**  
-This project aims to provide an optimized launcher experience for players of a modded Pixelmon server running on Minecraft Forge 1.20.1.
+A custom Minecraft launcher built for a Pixelmon-based economy server.
+
+This launcher simplifies joining and updating a modded server running Pixelmon Reforged on Minecraft Forge 1.20.1.
 
 ---
 
 ## Features
 
-- **Auto Login** with Microsoft account
-- **Automatic installation** of required Forge and Pixelmon Reforged mods
-- **One-click join** to the official server
-- **Custom patch system** for regular updates
-- **Multiplatform support** (Windows for now, macOS/Linux planned)
+- Microsoft 계정 자동 로그인 (Auto Login)
+- 포지 및 픽셀몬 자동 설치 (Automatic Installation)
+- 한 번의 클릭으로 서버 접속 (One-Click Join)
+- 커스텀 패치 시스템 (Custom Patch System)
+- Windows 지원 (macOS/Linux 예정)
 
 ---
 
-## Project Goals
+## Getting Started
 
-This launcher is being developed as part of a submission to the [ID@Xbox](https://www.xbox.com/en-US/developers/id) program.  
-The goal is to distribute the launcher through the Microsoft Store, targeting users who enjoy Pokémon-style Minecraft gameplay with a focus on economy and progression.
+1. Download the launcher from [Releases](https://github.com/Hamster-ux/pixelmon-economy-launcher/releases)
+2. Run the `.exe` file
+3. Log in with your Microsoft account
+4. Click `Join Server`
+
+---
+
+## About the Server
+
+This launcher is built for a custom Pixelmon Reforged server that blends Pokémon-style mechanics with a robust economic system.
+
+### In-Game Features:
+- Player Shops & Auctions
+- Catch, Train, and Battle Pokémon
+- Jobs and Quests System
+- Anti-Cheat & Moderation Tools
+- Daily Login Rewards and Server Events
+
+---
+
+## Roadmap
+
+- [x] Microsoft Account Login
+- [x] Forge & Pixelmon Auto Setup
+- [ ] Auto Patch Updates
+- [ ] Multiplayer Sync with Server-side Data
+- [ ] UI Design Improvements
+- [x] Azure / PlayFab Backend Integration
+
+---
+
+## Contributing
+
+If you are interested in helping with this project (translation, UI, backend), feel free to open an issue or submit a pull request.
+
+Currently looking for:
+- UI Designers
+- Java / Electron Developers
+- Korean-English Translators
 
 ---
 
 ## Tech Stack
 
-- **Electron** + **Node.js**
-- **Forge 1.20.1**
-- **Minecraft Modpack Management**
-- Planned backend: Azure or PlayFab integration
-
----
-
-## Screenshots
-
-*(Include screenshots of the launcher here)*
-
----
-
-## Development Status
-
-- [x] Basic launcher UI (Electron)
-- [x] Minecraft Forge + Pixelmon installation
-- [ ] Official login (MS OAuth integration)
-- [ ] Microsoft Store packaging and deployment
+- Electron + Node.js
+- Microsoft Authentication Library (MSAL)
+- Minecraft Forge 1.20.1
 
 ---
 
 ## License
 
-MIT License (or specify your choice)
-
----
-
-## Contact
-
-Developer: Eunho Park  
-Email: p86913237@outlook.kr
+This project is for educational and community server use only.  
+Not affiliated with Mojang, Microsoft, or the Pixelmon team.
