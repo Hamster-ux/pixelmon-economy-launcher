@@ -25,6 +25,13 @@ This launcher simplifies joining and updating a modded server running Pixelmon R
 
 ---
 
+## Documentation
+
+You can view the full project plan and overview here:  
+[Pixelmon Economy Server & Launcher Docs](https://docs.google.com/document/d/1-q-RW7kZfAC-2XF1YfWI1ur6-wZDCyet1bmHK3UCixM)
+
+---
+
 ## About the Server
 
 This launcher is built for a custom Pixelmon Reforged server that blends Pokémon-style mechanics with a robust economic system.
